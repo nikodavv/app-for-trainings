@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html>
+<!-- корневой элемент -->
+<html>  
+ <!-- помещаем в head ключевые слова, описания страницы и все, что не является контентом -->
   <head>
     <meta charset="utf-8">
     <title>Приложение для учета тренировок</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
   </head>
+
+  <!-- в теле содержится весь контент -->
   <body>
-    <img src="" alt="Моё тестовое изображение">
+    <!-- <h1>Учет тренировок</h1> -->
+    
+    <!-- Подтянул грид для разметки  -->
+    <div class="grid">
+      <div class="grid-item grid-item1">Пользователь</div>
+      <div class="grid-item grid-item2">Дата тренировки</div>
+      <div class="grid-item grid-item3">Тип тренировки</div>
+      <div class="grid-item grid-item4">Тип упражнения</div>
+      <div class="grid-item grid-item5"><img src="images/training-time.jpg" alt="Время тренировки" ></div>
+      <div class="grid-item grid-item6">Кол-во повторений</div>
+      <div class="grid-item grid-item7">Ссылка на <a href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics">доку</a></div>
+      <div class="grid-item grid-item8">Приложение для учета тренировок</div>
+
+      <div class="grid-item grid-item9"> <input type="text" id="guessField" class="guessField"> </label> </div>
+      <div class="grid-item grid-item10"> <input type="text" id="guessField" class="guessField"> </label> </div>
+      <div class="grid-item grid-item11"> <input type="text" id="guessField" class="guessField"> </label> </div>
+      <div class="grid-item grid-item12"> <input type="text" id="guessField" class="guessField"> </label> </div>
+      <div class="grid-item grid-item13"> <input type="text" id="guessField" class="guessField"> </label> </div>
+
+      <div class="grid-item grid-item14"> <input type="submit" value="Submit guess" class="guessSubmit"> </div>
+      <div class="grid-item grid-item15"> <input type="submit" value="Submit guess" class="guessSubmit"> </div>
+      <div class="grid-item grid-item16"> <input type="submit" value="Submit guess" class="guessSubmit"> </div>
+      <div class="grid-item grid-item17"> <input type="submit" value="Submit guess" class="guessSubmit"> </div>
+      <div class="grid-item grid-item18"> <input type="submit" value="Submit guess" class="guessSubmit"> </div>
+
+    </div>
+    <script src="scripts/main.js"></script>
   </body>
+
 </html> 
